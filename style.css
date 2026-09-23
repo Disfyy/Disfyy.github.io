@@ -205,3 +205,5 @@ footer { text-align: center; color: var(--ink-2); padding: 28px 16px; border-top
 .card ul.wins li::before { content: "★ "; color: var(--accent); }
 .wins b { color: var(--accent); font-weight: 600; }
 .wins .fx { color: var(--ink-2); font-family: var(--mono); font-size: 0.8rem; }
+.card .site { align-self: flex-start; margin-top: -4px; color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+.card .site:hover { border-bottom-width: 2px; }
